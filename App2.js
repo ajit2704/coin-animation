@@ -648,127 +648,137 @@ const App2 = () => {
            <View style={{
         
           }}>
-          <Animated.View
+          <Animated.Image
+             source={require('./assets/coin.png')}
             style={{
               height: 50,
               width: 50,
-              backgroundColor: 'orange',
+              // backgroundColor: 'orange',
               transform: [{ translateX: translation.x }, { translateY: translation.y }],
               borderRadius: 100,
               justifyContent: 'center',
               alignItems: 'center'
             }}>
-              <Text>1</Text>
-            </Animated.View>
-          <Animated.View
+              {/* <Text>1</Text> */}
+            </Animated.Image>
+            <Animated.Image
+             source={require('./assets/coin.png')}
             style={{
               height: 50,
               width: 50,
-              backgroundColor: 'orange',
+              // backgroundColor: 'orange',
               transform: [{ translateX: translation2.x }, { translateY: translation2.y }],
               borderRadius: 100,
               justifyContent: 'center',
               alignItems: 'center'
             }}>
-              <Text>2</Text>
-            </Animated.View>
-          <Animated.View
+              {/* <Text>2</Text> */}
+            </Animated.Image>
+            <Animated.Image
+             source={require('./assets/coin.png')}
             style={{
               height: 50,
               width: 50,
-              backgroundColor: 'orange',
+              // backgroundColor: 'orange',
               transform: [{ translateX: translation3.x }, { translateY: translation3.y }],
               borderRadius: 100,
               justifyContent: 'center',
               alignItems: 'center'
             }}>
-              <Text>3</Text>
-            </Animated.View>
+              {/* <Text>3</Text> */}
+            </Animated.Image>
     
-          <Animated.View
+            <Animated.Image
+             source={require('./assets/coin.png')}
             style={{
               height: 50,
               width: 50,
-              backgroundColor: 'orange',
+              // backgroundColor: 'orange',
               transform: [{ translateX: translation4.x }, { translateY: translation4.y }],
               borderRadius: 100,
               justifyContent: 'center',
               alignItems: 'center'
             }}>
-              <Text>4</Text>
-            </Animated.View>
-             <Animated.View
+              {/* <Text>4</Text> */}
+            </Animated.Image>
+            <Animated.Image
+             source={require('./assets/coin.png')}
             style={{
               height: 50,
               width: 50,
-              backgroundColor: 'orange',
+              // backgroundColor: 'orange',
               transform: [{ translateX: translation5.x }, { translateY: translation5.y }],
               borderRadius: 100,
               justifyContent: 'center',
               alignItems: 'center'
             }}>
-              <Text>5</Text>
-            </Animated.View>
-             <Animated.View
+              {/* <Text>5</Text> */}
+            </Animated.Image>
+            <Animated.Image
+             source={require('./assets/coin.png')}
             style={{
               height: 50,
               width: 50,
-              backgroundColor: 'orange',
+              // backgroundColor: 'orange',
               transform: [{ translateX: translation6.x }, { translateY: translation6.y }],
               borderRadius: 100,
               justifyContent: 'center',
               alignItems: 'center'
             }}>
-              <Text>6</Text>
-            </Animated.View>
-             <Animated.View
+              {/* <Text>6</Text> */}
+            </Animated.Image>
+            <Animated.Image
+             source={require('./assets/coin.png')}
             style={{
               height: 50,
               width: 50,
-              backgroundColor: 'orange',
+              // backgroundColor: 'orange',
               transform: [{ translateX: translation7.x }, { translateY: translation7.y }],
               borderRadius: 100,
               justifyContent: 'center',
               alignItems: 'center'
             }}>
-              <Text>7</Text>
-            </Animated.View>
-             <Animated.View
+              {/* <Text>7</Text> */}
+            </Animated.Image>
+            <Animated.Image
+             source={require('./assets/coin.png')}
             style={{
               height: 50,
               width: 50,
-              backgroundColor: 'orange',
+              // backgroundColor: 'orange',
               transform: [{ translateX: translation8.x }, { translateY: translation8.y }],
               borderRadius: 100,
               justifyContent: 'center',
               alignItems: 'center'
             }}>
-              <Text>8</Text>
-            </Animated.View>
-             <Animated.View
+              {/* <Text>8</Text> */}
+            </Animated.Image>
+            <Animated.Image
+             source={require('./assets/coin.png')}
             style={{
               height: 50,
               width: 50,
-              backgroundColor: 'orange',
+              // backgroundColor: 'orange',
               transform: [{ translateX: translation9.x }, { translateY: translation9.y }],
               borderRadius: 100,
               justifyContent: 'center',
               alignItems: 'center'
             }}>
-              <Text>9</Text>
-            </Animated.View>
-             <Animated.View
+              {/* <Text>9</Text> */}
+            </Animated.Image>
+             <Animated.Image
+             source={require('./assets/coin.png')}
             style={{
               height: 50,
               width: 50,
-              backgroundColor: 'orange',
+              // backgroundColor: 'orange',
               transform: [{ translateX: translation10.x }, { translateY: translation10.y }],
               borderRadius: 100,
               justifyContent: 'center',
               alignItems: 'center'
             }}>
-              <Text>10</Text>
-            </Animated.View>
+              {/* <Text>10</Text> */}
+            </Animated.Image>
             </View>
         } 
         </View>
